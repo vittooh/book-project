@@ -6,12 +6,12 @@ name: build
 on:
   push:
     branches:
-      - main
+      - test-build
     paths:
       - 'backend/**/*.java'
   pull_request:
     branches:
-      - main
+      - test-build
     paths:
       - 'backend/**/*.java'
 
