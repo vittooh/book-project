@@ -30,6 +30,8 @@ import org.springframework.context.annotation.Bean;
 @ConfigurationPropertiesScan
 public class BookProjectApplication extends SpringBootServletInitializer {
 
+
+
 	@Bean
 	public ModelMapper modelMapper() {
 		ModelMapper modelMapper = new ModelMapper();
